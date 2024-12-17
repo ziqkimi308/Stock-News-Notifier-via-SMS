@@ -1,3 +1,14 @@
+"""
+********************************************************************************
+* Project Name:  Stock & News Notifier 🚀 via SMS
+* Description:   Stock & News Notifier is a Python application that fetches stock price changes and sends recent news updates via SMS using Twilio. It helps you stay informed whenever a significant price change occurs for a specific company (like Tesla).
+* Author:        ziqkimi308
+* Created:       2024-12-17
+* Updated:       2024-12-17
+* Version:       1.0
+********************************************************************************
+"""
+
 import requests
 import datetime as dt
 from twilio.rest import Client # Twilio requires this
